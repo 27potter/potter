@@ -11,7 +11,7 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
 
-client = LINE("Exs9R7W4UCPniZNLmp8f.Mzt95T5CZliIXv3SMwH9hW.8rh8AioCThgOTtWyGyKI72sNXFocg4rNuSqGaZjkInA=")
+client = LINE("put your token")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
